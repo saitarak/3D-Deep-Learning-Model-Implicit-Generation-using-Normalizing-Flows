@@ -2,12 +2,12 @@
 
 ## Abstract
 
-In recent times, the researchers from deep learning community started focusing on 3D modeling for broader adoption. The algorithms are being
+In recent times, the researchers from deep learning community started focusing on 3D modeling for broader adoption. The algorithms are being
 implemented at a fast pace to work with 3D data. The main goal is to reconstruct and generate 3D models that can help save time in modeling 3D
 data in various industry domains like robotics, computer vision, and virtual
 reality, etc., However, the quality of 3D generation is not attained to the
 required level.
-In this thesis, we present an implicit generative framework that merges implicit representation and normalizing flow techniques to generate novel shapes.
+In this thesis, we present an implicit generative framework that merges implicit representation and normalizing flow techniques to generate novel shapes.
 Implicit representation excels at intricate 3D shape learning while normalizing
 flow-based generation facilitates novel 3D shape generation offering tractable
 log-likelihoods and efficient sampling. This work further analyzes the latent
