@@ -16,10 +16,10 @@ shape learning models. This enhances the ability to generate novel shapes by
 learning the optimal shape encoding. By capturing 3D shapes as dense point
 clouds, our approach advances generative 3D modeling.
 We conduct our experimentation on the ’cars’ object category from the
-ShapeNet dataset for its intricate internal details and complexity. To quantitatively assess the efficacy of our 3D reconstruction models, we employ
+ShapeNet dataset for its intricate internal details and complexity. To quantitatively assess the efficacy of our 3D reconstruction models, we employ
 the chamfer distance metric. Additionally, we present qualitative outcomes
 of our generation approach to provide a comprehensive view of our model
-performance
+performance.
 
 ## Setup
 
