@@ -1,5 +1,26 @@
 # 3D Model Implicit Generation Using Normalizing Flows
 
+## Abstract
+
+In recent times, the researchers from deep learning community started focusing on 3D modeling for broader adoption. The algorithms are being
+implemented at a fast pace to work with 3D data. The main goal is to reconstruct and generate 3D models that can help save time in modeling 3D
+data in various industry domains like robotics, computer vision, and virtual
+reality, etc., However, the quality of 3D generation is not attained to the
+required level.
+In this thesis, we present an implicit generative framework that merges implicit representation and normalizing flow techniques to generate novel shapes.
+Implicit representation excels at intricate 3D shape learning while normalizing
+flow-based generation facilitates novel 3D shape generation offering tractable
+log-likelihoods and efficient sampling. This work further analyzes the latent
+spaces in neural implicit representation models, aiming to identify the optimal
+shape learning models. This enhances the ability to generate novel shapes by
+learning the optimal shape encoding. By capturing 3D shapes as dense point
+clouds, our approach advances generative 3D modeling.
+We conduct our experimentation on the ’cars’ object category from the
+ShapeNet dataset for its intricate internal details and complexity. To quantitatively assess the efficacy of our 3D reconstruction models, we employ
+the chamfer distance metric. Additionally, we present qualitative outcomes
+of our generation approach to provide a comprehensive view of our model
+performance
+
 ## Setup
 
 For the project, GPU is required to run the experiments. 
@@ -12,7 +33,7 @@ To create an environment, go to ndf directory and use the following lines of cod
    ```
 
 To perform the experiments ShapeNetCore v2 dataset cars foler named as 02958343 is downloaded. 
-1. Dataprocessing is performed using:
+1. Dataprocessing is performed with:
    ```
    python ../dataprocessing/preprocess.py --config ../configs/shapenet_cars.txt
    ```
