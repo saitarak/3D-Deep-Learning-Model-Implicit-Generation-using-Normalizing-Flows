@@ -13,29 +13,29 @@ conda activate NDF
 
 To perform the experiments ShapeNetCore v2 dataset cars foler named as 02958343 is downloaded. 
 1. Dataprocessing is performed using:
-'''
-python ../dataprocessing/preprocess.py --config ../configs/shapenet_cars.txt
-'''
+   '''
+   python ../dataprocessing/preprocess.py --config ../configs/shapenet_cars.txt
+   '''
 
 2. The split of training, test or validation split data using:
-'''
-python ../dataprocessing/create_split.py --config ../configs/shapenet_cars.txt
-'''
+   '''
+   python ../dataprocessing/create_split.py --config ../configs/shapenet_cars.txt
+   '''
 
 3. Train the Real NVP model with the following command:
-''' 
-python ../train_rnvp.py --config ../configs/shapenet_cars.txt
-'''
+   ''' 
+   python ../train_rnvp.py --config ../configs/shapenet_cars.txt
+   '''
 
 4. Visualization of graphs:
-'''
-tensorboard --logdir ../models/experiments/shapenet_cars/summary
-'''
+   '''
+   tensorboard --logdir ../models/experiments/shapenet_cars/summary
+   '''
 
 5. Generate 3D car models:
-''' 
-python ../generate.py --config ../configs/shapenet_cars.txt
-'''
+   ''' 
+   python ../generate.py --config ../configs/shapenet_cars.txt
+   '''
 
 Checkpoints can be found in ../models/experiments/shapenet_cars for NDF model to freeze the checkpoint.
 
