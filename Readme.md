@@ -21,7 +21,7 @@ the chamfer distance metric. Additionally, we present qualitative outcomes
 of our generation approach to provide a comprehensive view of our model
 performance.
 
-## Setup
+## Experimental Preparation
 
 FThe NDF.yml file contains all necessary python dependencies for the project. To conveniently install them automatically with anaconda you can use:
    ```
