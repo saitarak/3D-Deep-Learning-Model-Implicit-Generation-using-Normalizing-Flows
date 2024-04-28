@@ -6,10 +6,10 @@ For the project, GPU is required to run the experiments.
 NDF.yml file contains all the python dependencies used in the project.
 
 To create an environment, go to ndf directory and use the following lines of code:
-```
-conda env create -f NDF.yml
-conda activate NDF
-```
+   ```
+   conda env create -f NDF.yml
+   conda activate NDF
+   ```
 
 To perform the experiments ShapeNetCore v2 dataset cars foler named as 02958343 is downloaded. 
 1. Dataprocessing is performed using:
