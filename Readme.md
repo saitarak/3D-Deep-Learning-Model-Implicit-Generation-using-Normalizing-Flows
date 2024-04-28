@@ -23,10 +23,7 @@ performance.
 
 ## Setup
 
-For the project, GPU is required to run the experiments. 
-NDF.yml file contains all the python dependencies used in the project.
-
-To create an environment, go to ndf directory and use the following lines of code:
+FThe NDF.yml file contains all necessary python dependencies for the project. To conveniently install them automatically with anaconda you can use:
    ```
    conda env create -f NDF.yml
    conda activate NDF
