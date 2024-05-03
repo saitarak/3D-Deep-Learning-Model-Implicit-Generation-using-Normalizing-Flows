@@ -27,7 +27,7 @@ performance.
 ## Experimental Preparation
 
 
-FThe NDF.yml file contains all necessary python dependencies for the project. To conveniently install them automatically with anaconda you can use:
+The NDF.yml file contains all necessary python dependencies for the project. To conveniently install them automatically with anaconda you can use:
    ```
    conda env create -f NDF.yml
    conda activate NDF
